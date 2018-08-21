@@ -1,0 +1,7 @@
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
+
+alias ls="ls --color=auto"
+
+export PS1="\u@\h : \[\e[36m\]\w\[\e[m\]\n\[\e[32m\]❯\[\e[m\] "
